@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare flexible pricing plans and choose the right plan for your needs.">
+  <title>PricePro | Choose Your Plan</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">
+      <span class="logo-icon">P</span>
+      PricePro
+    </a>
+
+    <nav class="nav-links">
+      <a href="#pricing">Pricing</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a href="#pricing" class="nav-button">Get Started</a>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <span class="section-tag">SIMPLE & TRANSPARENT PRICING</span>
+
+      <h1>Plans that grow<br>with <span>your ambition.</span></h1>
+
+      <p>
+        Everything you need to work smarter, stay organized,
+        and achieve more. Choose the plan that fits your journey.
+      </p>
+
+      <div class="trust-line">
+        <span>✓ No hidden fees</span>
+        <span>✓ Cancel anytime</span>
+        <span>✓ Secure payments</span>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+
+      <div class="billing-toggle">
+        <span class="billing-label active" id="monthlyLabel">Monthly</span>
+
+        <label class="switch">
+          <input type="checkbox" id="billingToggle">
+          <span class="slider"></span>
+        </label>
+
+        <span class="billing-label" id="yearlyLabel">
+          Yearly <small>Save 20%</small>
+        </span>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- BASIC PLAN -->
+        <article class="pricing-card">
+          <div class="plan-top">
+            <div class="plan-icon basic-icon">✦</div>
+            <h2>Basic</h2>
+            <p class="plan-description">
+              Perfect for individuals getting started.
+            </p>
+          </div>
+
+          <div class="price-area">
+            <div class="price">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="199" data-yearly="159">199</span>
+              <span class="period">/ month</span>
+            </div>
+            <p class="billing-note">Billed monthly</p>
+          </div>
+
+          <a href="#contact" class="plan-button basic-button" data-plan="Basic">
+            Choose Basic
+          </a>
+
+          <div class="feature-divider"></div>
+
+          <h3>What's included</h3>
+
+          <ul class="feature-list">
+            <li>✓ Access to basic features</li>
+            <li>✓ 5 active projects</li>
+            <li>✓ 1 GB storage</li>
+            <li>✓ Email support</li>
+            <li class="disabled-feature">× Advanced analytics</li>
+            <li class="disabled-feature">× Priority support</li>
+          </ul>
+        </article>
+
+        <!-- PRO PLAN -->
+        <article class="pricing-card popular-card">
+          <div class="popular-badge">MOST POPULAR</div>
+
+          <div class="plan-top">
+            <div class="plan-icon pro-icon">✧</div>
+            <h2>Pro</h2>
+            <p class="plan-description">
+              For professionals ready to do more.
+            </p>
+          </div>
+
+          <div class="price-area">
+            <div class="price">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="499" data-yearly="399">499</span>
+              <span class="period">/ month</span>
+            </div>
+            <p class="billing-note">Billed monthly</p>
+          </div>
+
+          <a href="#contact" class="plan-button pro-button" data-plan="Pro">
+            Choose Pro
+          </a>
+
+          <div class="feature-divider"></div>
+
+          <h3>Everything in Basic, plus</h3>
+
+          <ul class="feature-list">
+            <li>✓ Unlimited projects</li>
+            <li>✓ 50 GB storage</li>
+            <li>✓ Advanced analytics</li>
+            <li>✓ Priority email support</li>
+            <li>✓ Team collaboration</li>
+            <li class="disabled-feature">× Dedicated manager</li>
+          </ul>
+        </article>
+
+        <!-- PREMIUM PLAN -->
+        <article class="pricing-card">
+          <div class="plan-top">
+            <div class="plan-icon premium-icon">♛</div>
+            <h2>Premium</h2>
+            <p class="plan-description">
+              For teams that want the complete experience.
+            </p>
+          </div>
+
+          <div class="price-area">
+            <div class="price">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="999" data-yearly="799">999</span>
+              <span class="period">/ month</span>
+            </div>
+            <p class="billing-note">Billed monthly</p>
+          </div>
+
+          <a href="#contact" class="plan-button premium-button" data-plan="Premium">
+            Choose Premium
+          </a>
+
+          <div class="feature-divider"></div>
+
+          <h3>Everything in Pro, plus</h3>
+
+          <ul class="feature-list">
+            <li>✓ 500 GB storage</li>
+            <li>✓ Dedicated account manager</li>
+            <li>✓ Custom integrations</li>
+            <li>✓ Advanced security</li>
+            <li>✓ 24/7 premium support</li>
+            <li>✓ Custom reports</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section" id="features">
+      <div class="section-heading">
+        <span class="section-tag">WHY PRICEPRO?</span>
+        <h2>More value. Less complexity.</h2>
+        <p>Simple plans with the tools you need to move forward.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">↗</div>
+          <h3>Flexible Plans</h3>
+          <p>Choose a plan that matches your current needs and upgrade whenever you want.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">♧</div>
+          <h3>Reliable Support</h3>
+          <p>Get help when you need it with support options available across our plans.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">◇</div>
+          <h3>Secure Experience</h3>
+          <p>Your workspace and information are protected with security-focused features.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="section-heading">
+        <span class="section-tag">NEED HELP?</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>Can I change my plan later?</summary>
+          <p>Yes. You can choose a different plan whenever your requirements change.</p>
+        </details>
+
+        <details>
+          <summary>Can I cancel my subscription?</summary>
+          <p>Yes. You can cancel your subscription at any time.</p>
+        </details>
+
+        <details>
+          <summary>Is there a yearly billing option?</summary>
+          <p>Yes. Select the yearly billing toggle to see the discounted yearly rates.</p>
+        </details>
+
+        <details>
+          <summary>Are these plans real subscriptions?</summary>
+          <p>No. This is a front-end demonstration project. No actual payment or subscription is processed.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <h2>Ready to get started?</h2>
+      <p id="selectedPlan">Choose a plan and take the next step.</p>
+      <a href="mailto:hello@example.com" class="contact-button" id="contactButton">
+        Contact Us
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="#" class="logo">
+      <span class="logo-icon">P</span>
+      PricePro
+    </a>
+
+    <p>© <span id="year"></span> PricePro. All rights reserved.</p>
+    <a href="#pricing">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
